@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine? 🥹🥹🥹</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Proposal Page -->
+    <div id="proposal" class="proposal active">
+        <div class="proposal-box">
+            <h1>Will You Make Me The Happiest Girl And Be My Valentine?</h1>
+            <div class="big-heart">🥹</div>
+<!--             
+            <p class="dear">My Dearest,</p>
+            <p>Every moment with you is special.</p>
+            <p>Will you be my Valentine?</p>
+             -->
+            <div class="buttons">
+                <button id="yes" class="btn yes-btn">YES!</button>
+                <button id="no" class="btn no-btn">No</button>
+            </div>
+            
+            <p class="hint">Say yes for a surprise!!!! 🤭</p>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div id="main" class="main hidden">
+        <div class="wrapper">
+            <!-- Header -->
+            <header>
+                <h1>My Valentine ❤️</h1>
+                <div class="nav">
+                    <button class="nav-btn active" data-page="reasons">Reasons I Love You</button>
+                    <button class="nav-btn" data-page="valentine">Valentine's Message</button>
+                </div>
+            </header>
+
+            <!-- Pages -->
+            <main>
+                <!-- Page 1: Reasons -->
+                <div class="page active" id="reasons">
+                    <div class="card">
+                        <h2>Reasons I Love You</h2>
+                        <p class="sub">Just a few of the countless reasons...</p>
+                        
+                        <div class="reasons">
+                            <div class="reason">
+                                <i class="fas fa-smile"></i>
+                                <h3>Your Smile</h3>
+                                <p>The way your eyes light up when you smile makes every moment feel magical.</p>
+                            </div>
+                            
+                            <div class="reason">
+                                <i class="fas fa-heart"></i>
+                                <h3>Your Heart</h3>
+                                <p>Your kindness and compassion inspire me to be a better person every day.</p>
+                            </div>
+                            
+                            <div class="reason">
+                                <i class="fas fa-hiking"></i>
+                                <h3>Our Adventures</h3>
+                                <p>Every moment with you, from quiet nights to wild adventures, is my favorite memory.</p>
+                            </div>
+                            
+                            <div class="reason">
+                                <i class="fas fa-laugh"></i>
+                                <h3>Your Laugh</h3>
+                                <p>That contagious laugh that fills the room and makes my heart skip a beat.</p>
+                            </div>
+                            
+                            <div class="reason">
+                                <i class="fas fa-user-friends"></i>
+                                <h3>Being Your Person</h3>
+                                <p>Nothing makes me prouder than knowing I get to call you mine.</p>
+                            </div>
+                            
+                            <div class="reason">
+                                <i class="fas fa-star"></i>
+                                <h3>Our Future</h3>
+                                <p>I can't wait to see what beautiful moments we'll create together.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="hearts" id="hearts1"></div>
+                    </div>
+                </div>
+                
+                <!-- Page 2: Valentine Message -->
+                <div class="page" id="valentine">
+                    <div class="card valentine">
+                        <h2>Happy Valentine's Day</h2>
+                        <h3>To My Favorite Person</h3>
+                        
+                        <div class="content">
+                            <div class="text">
+                                <p>Every day with you feels like Valentine's Day. You are my best friend, my soulmate, and my greatest adventure. Thank you for filling my life with so much love and joy.</p>
+                                <p class="love">I love you endlessly <span class="pulse">❤️</span></p>
+                            </div>
+                            
+                            <div class="image">
+                                <i class="fas fa-heart"></i>
+                                <p>Our Special Memories</p>
+                            </div>
+                        </div>
+                        
+                        <div class="hearts" id="hearts2"></div>
+                    </div>
+                </div>
+            </main>
+            
+            <!-- Footer -->
+            <footer>
+                <p>Made with <i class="fas fa-heart"></i> for you</p>
+                <p>February 14, 2026</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
