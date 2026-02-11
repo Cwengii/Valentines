@@ -11,7 +11,7 @@ const hearts2 = document.getElementById('hearts2');
 // No button messages
 const noMessages = [
     "Are you sure?",
-    "Really sure?",
+    "Hear me out?",
     "Think again!",
     "Last chance!",
     "You might regret this!",
@@ -31,7 +31,7 @@ function createHearts(container, count, size) {
         heart.innerHTML = '❤️';
         heart.style.position = 'absolute';
         heart.style.fontSize = `${size}px`;
-        heart.style.color = '#d6456d';
+        heart.style.color = '#6d0f2b';
         heart.style.opacity = '0.7';
         heart.style.left = `${Math.random() * 60}px`;
         heart.style.top = `${Math.random() * 60}px`;
@@ -61,14 +61,14 @@ function celebrate() {
     
     // Show celebration
     const celebration = document.createElement('div');
-    celebration.innerHTML = 'YAY! ❤️';
+    celebration.innerHTML = 'Lets goooo! ❤️';
     celebration.style.position = 'fixed';
     celebration.style.top = '50%';
     celebration.style.left = '50%';
     celebration.style.transform = 'translate(-50%, -50%)';
     celebration.style.fontFamily = "'Dancing Script', cursive";
     celebration.style.fontSize = '4rem';
-    celebration.style.color = '#ff4d7e';
+    celebration.style.color = '#6d0f2b';
     celebration.style.backgroundColor = 'white';
     celebration.style.padding = '30px 50px';
     celebration.style.borderRadius = '20px';
@@ -82,7 +82,7 @@ function celebrate() {
         heart.innerHTML = '❤️';
         heart.style.position = 'fixed';
         heart.style.fontSize = `${Math.random() * 30 + 20}px`;
-        heart.style.color = '#ff6b8b';
+        heart.style.color ='#6d0f2b';
         heart.style.left = `${Math.random() * 100}%`;
         heart.style.top = `${Math.random() * 100}%`;
         heart.style.zIndex = '999';
@@ -187,7 +187,7 @@ function setupHeartPulse() {
                 mini.innerHTML = '❤️';
                 mini.style.position = 'fixed';
                 mini.style.fontSize = '20px';
-                mini.style.color = '#d6456d';
+                mini.style.color = '#6d0f2b';
                 mini.style.left = `${event.clientX}px`;
                 mini.style.top = `${event.clientY}px`;
                 mini.style.zIndex = '1000';
