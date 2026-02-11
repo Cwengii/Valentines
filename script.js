@@ -10,9 +10,8 @@ const hearts2 = document.getElementById('hearts2');
 
 // No button messages
 const noMessages = [
-    "Are you sure?",
     "Hear me out?",
-    "Think again!",
+    "Bro!",
     "Last chance!",
     "You might regret this!",
     "Give it another thought!",
@@ -61,7 +60,7 @@ function celebrate() {
     
     // Show celebration
     const celebration = document.createElement('div');
-    celebration.innerHTML = 'Lets goooo! ❤️';
+    celebration.innerHTML = 'Lets goooo!';
     celebration.style.position = 'fixed';
     celebration.style.top = '50%';
     celebration.style.left = '50%';
